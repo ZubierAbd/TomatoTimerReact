@@ -62,3 +62,66 @@
   margin-bottom: 14px;
   margin-top: 14px;
 }
+
+.control-buttons ul li {
+
+    display: inline;
+    margin: 25px;
+
+}
+
+.control-buttons{
+  text-align: center;
+  padding: 0 15px;
+}
+
+.control-buttons button {
+  width: 120px;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 15px 30px 16px;
+
+}
+
+.control-buttons #start{
+  background: #5da423;
+  border-color: #396516;
+}
+
+.control-buttons #start:hover{
+  background: #457a1a;
+}
+
+.control-buttons #start:focus{
+  background: #457a1a;
+}
+
+.control-buttons #stop{
+  background: #c60f13;
+  border: 1px solid #7f0a0c;
+}
+
+.control-buttons #stop:hover{
+  background: #7f0a0c;
+}
+
+.control-buttons #stop:focus{
+  background: #7f0a0c;
+}
+
+
+.control-buttons #reset{
+  color: #1d1d1d;
+  background: #d0d0d0;
+  border: 1px solid #c3c3c3;
+}
+
+
+.control-buttons #reset:hover{
+  background: #c3c3c3;
+}
+
+.control-buttons #reset:focus{
+  background: #c3c3c3;
+}
+
