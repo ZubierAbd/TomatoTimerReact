@@ -7,3 +7,7 @@ This project is me recreating the famous tomato timer site using React Hooks. Do
 ## Available Scripts 
 
 Use 'npm run start' to start the development server. 
+
+
+### Features I want to implement 
+

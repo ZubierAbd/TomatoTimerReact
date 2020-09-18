@@ -42,6 +42,7 @@
   border: 1px solid #2284a1;
   width: 22%;
   color: white;
+  box-shadow: 3px 3px rgba(22,22,22,0.3); 
 }
 
 .button:active {
@@ -59,8 +60,8 @@
   font-weight: bold;
   color: #222222;
   line-height: 1.1;
-  margin-bottom: 14px;
-  margin-top: 14px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .control-buttons ul li {
@@ -86,6 +87,7 @@
 .control-buttons #start{
   background: #5da423;
   border-color: #396516;
+  box-shadow: 3px 3px rgba(22,22,22,0.3);
 }
 
 .control-buttons #start:hover{
@@ -99,6 +101,7 @@
 .control-buttons #stop{
   background: #c60f13;
   border: 1px solid #7f0a0c;
+  box-shadow: 3px 3px rgba(22,22,22,0.3);
 }
 
 .control-buttons #stop:hover{
@@ -113,6 +116,7 @@
 .control-buttons #reset{
   color: #1d1d1d;
   background: #d0d0d0;
+    box-shadow: 3px 3px rgba(22,22,22,0.3);
   border: 1px solid #c3c3c3;
 }
 
@@ -123,5 +127,20 @@
 
 .control-buttons #reset:focus{
   background: #c3c3c3;
+}
+
+.footer {
+  text-align: center;
+  width: 66vw;
+  font-size: 18px;
+  margin: 0 auto;
+
+}
+
+.footer p {
+  margin: 45px;
+  text-align: center;
+  line-height: 1.5em;
+  text-justify: distribute;
 }
 
