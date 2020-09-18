@@ -48,7 +48,14 @@ function App() {
   useEffect(() => {
     const timeOut = setTimeout(() => {
       if (isOn) {
-        time > 0 ? tick() : play()
+        if (time > 0) {
+          tick()
+        } else if (time === 0) {
+          play();
+          setMins("00")
+          setSeconds("00")
+          setOn(false)
+        }
       }
     }, 1000)
 

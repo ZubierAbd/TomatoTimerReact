@@ -1,4 +1,7 @@
-##Tomato Timer
+# Tomato Timer
+
+Find the live version of the site [here](https://tomato-timer-abd.herokuapp.com/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -9,5 +12,4 @@ This project is me recreating the famous tomato timer site using React Hooks. Do
 Use 'npm run start' to start the development server. 
 
 
-### Features I want to implement 
 
