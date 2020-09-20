@@ -5,13 +5,14 @@
 }
 
 .body {
-  background: white;
+  background: #ffffff;
+  background-size: cov;
   font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
 }
 
 .panel {
-  background: #f2f2f2;
-  border: 1px solid #e6e6e6;
+  background: #e1e1e1;
+  border: 1px solid #140b0b;
   margin: 0 0 22px 0;
   padding: 20px;
 }
@@ -144,3 +145,20 @@
   text-justify: distribute;
 }
 
+.header{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tomatoHeader{
+  display: inline;
+}
+
+.tomatoHeader img {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 2em;
+}
